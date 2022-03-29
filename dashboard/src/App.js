@@ -8,7 +8,7 @@ const App = () => {
   const openSidebar = () => setSidebarOpen(true);
   const closeSidebar = () => setSidebarOpen(false);
 
-  
+
 
   return (
     <div className="container">
@@ -17,5 +17,7 @@ const App = () => {
     </div>
   );
 }
+
+// teste
 
 export default App;
