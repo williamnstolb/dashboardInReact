@@ -3,10 +3,10 @@ import './Sidebar.css';
 
 const Sidebar = ({ sidebarOpen, closeSidebar }) => {
   return (
-    <div className={ sidebarOpen ? "sidebar-responsive" : "" } id="sidebar">
+    <div className={ sidebarOpen ? "sidebar-responsive" : "sidebar" } id="sidebar">
       <div className="sidebar-title">
         <div className="sidebar-img">
-          <img src= {Logo} alt='avatar' />
+          <img src= { Logo } alt='Logo' />
           <h1>Williamns Dev</h1>
         </div>
         <i
@@ -16,10 +16,10 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
         aria-hidden='true'
         ></i>
       </div>
-        <div className='sidebar-menu'>
-          <div className='sidebar-link active-menu-link'>
-            <i className='fa fa-minus-square' ></i>
-            <a href='#'>Home</a>
+      <div className='sidebar-menu'>
+        <div className='sidebar-link active-menu-link'>
+          <i className='fa fa-minus-square' ></i>
+          <a href='#'>Home</a>
         </div>
         <h2>ADMIN</h2>
         <div className='sidebar-link'>
