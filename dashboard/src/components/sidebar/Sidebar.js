@@ -3,9 +3,9 @@ import './Sidebar.css';
 
 const Sidebar = ({ sidebarOpen, closeSidebar }) => {
   return (
-    <div className={ sidebarOpen ? 'sidebar-responsive' : '' } id='sidebar'>
-      <div className='sidebar-title'>
-        <div className='sidebar-img'>
+    <div className={ sidebarOpen ? "sidebar-responsive" : "" } id="sidebar">
+      <div className="sidebar-title">
+        <div className="sidebar-img">
           <img src= {Logo} alt='avatar' />
           <h1>Williamns Dev</h1>
         </div>
