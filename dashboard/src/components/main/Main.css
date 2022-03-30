@@ -131,9 +131,6 @@ main {
   color: #fff;
   background: #39447a;
   border-radius: 200px 0 200px 200px;
-  /* -moz-border-radiuns: 200px 0 200px 200px;
-  -webkit-border-radius: 200px 0 200px 200px; */
-  border: 0 solid #000000;
   padding: 15px;
 }
 
