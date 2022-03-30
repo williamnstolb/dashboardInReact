@@ -14,12 +14,12 @@ main {
 }
 
 .main-title > img {
-  max-width: 100px;
+  max-height: 100px;
   object-fit: contain;
   margin-right: 20px;
 }
 
-.main-greeting {
+.main-greeting > h1 {
   font-size: 24px;;
   color: #2e4a66;
   margin-bottom: 5px;
@@ -42,8 +42,8 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 70px;
-  padding: 25px;
+  height: 90px;
+  padding: 10px;
   border-radius: 5px;
   background-color: #fff;
   box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
@@ -55,8 +55,12 @@ main {
   justify-content: space-between;
 }
 
+.card-inner > p {
+  font-size: 15px;
+}
+
 .card-inner > span {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .charts {

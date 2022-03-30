@@ -14,28 +14,28 @@ const Main = () => {
           </div>
         </div>
         <div className="main-cards">
-          <div className="card1">
+          <div className="card">
             <i className="fa fa-file-text fa-2x text-lightblue"></i>
             <div className="card-inner">
-              <p className="text-primary-p">Número de pedidos</p>
+              <p className="text-primary-p">Pedidos</p>
               <span className="font-bold text-title">1.000</span>
             </div>
           </div>
-          <div className="card2">
+          <div className="card">
             <i className="fa fa-money fa-2x text-red"></i>
               <div className="card-inner">
                 <p className="text-primary-p">Pagamentos</p>
-                <span className="font-bold text-title">R$ 2.467,00</span>
+                <span className="font-bold text-title">R$ 2467</span>
               </div>
           </div>
-          <div className="card3">
+          <div className="card">
             <i className="fa fa-archive fa-2x text-yellow"></i>
               <div className="card-inner">
-                <p className="text-primary-p">Número de produtos</p>
+                <p className="text-primary-p">Produtos</p>
                 <span className="font-bold text-title">654</span>
               </div>
           </div>
-          <div className="card4">
+          <div className="card">
             <i className="fa fa-bars fa-2x text-green"></i>
               <div className="card-inner">
                 <p className="text-primary-p">Categorias</p>
@@ -48,7 +48,7 @@ const Main = () => {
             <div className="chart-left-title">
               <div >
                 <h1 >Daily Reports</h1>
-                <h1 >João Pessoa, Paraíba, BR</h1>
+                <p>João Pessoa, Paraíba, BR</p>
               </div>
               <i className="fa fa-usd"></i>
             </div>
@@ -58,7 +58,7 @@ const Main = () => {
           <div className="chart-right-title">
               <div >
                 <h1 >Daily Reports</h1>
-                <h1 >João Pessoa, Paraíba, BR</h1>
+                <p >João Pessoa, Paraíba, BR</p>
               </div>
               <i className="fa fa-area-chart"></i>
             </div>
