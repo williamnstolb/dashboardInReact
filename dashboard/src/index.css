@@ -29,9 +29,13 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-.text-primary {
+.text-primary-p {
   color: #a5aaad;
   font-size: 14px;
+  font-weight: 700;
+}
+
+.font-bold {
   font-weight: 700;
 }
 
