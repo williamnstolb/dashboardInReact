@@ -1,5 +1,5 @@
 import Hello from '../../Assets/hello.svg'
-// import Chart from '../charts/Chart'
+import Chart from '../charts/Chart'
 import './Main.css'
 
 const Main = () => {
@@ -9,7 +9,7 @@ const Main = () => {
         <div className="main-title">
           <img src={Hello} alt="Hello" />
           <div className="main-greeting">
-            <h1>Olá, meu nome é</h1>
+            <h1>Williamns.</h1>
             <p>Bem vindo ao seu painel</p>
           </div>
         </div>
@@ -52,7 +52,7 @@ const Main = () => {
               </div>
               <i className="fa fa-usd"></i>
             </div>
-            {/* <Chart /> */}
+            <Chart />
           </div>
           <div className="charts-right">
           <div className="chart-right-title">
