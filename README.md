@@ -10,7 +10,7 @@ Futuramente pretendo fazer modificações nos componentes react.
 
 > :construction: Projeto em construção :construction:
 
-# Tecnologias utilizadas
+# Linguagens, dependências e libs utilizadas :books:
 
 [ReactJs](https://pt-br.reactjs.org/)
 
