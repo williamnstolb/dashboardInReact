@@ -4,7 +4,7 @@
 
 # Descrição do Projeto
 
-Projeto para treinar REACT + CSS. Apenas a primeira tela do dashboard. Não tem nenhuma funcionalidade ainda, mas já está responsívo.
+Projeto para treinar REACT + CSS. Apenas a primeira tela do dashboard. Não tem nenhuma funcionalidade ainda, mas já está responsivo.
 
 Futuramente pretendo fazer modificações nos componentes react.
 
